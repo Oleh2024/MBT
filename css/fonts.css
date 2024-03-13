@@ -1,0 +1,67 @@
+/* roboto   1font*/
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Black.ttf') format('truetype');
+	font-weight: 900;
+	
+}
+
+/* Museo Sans Cyrl 2font*/
+@font-face{
+	font-family: 'Museo Sans Cyrl';
+	src: url(../fonts/museo-sans-cyrl/museosanscyrl-100.ttf) format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Museo Sans Cyrl';
+	src: url(../fonts/museo-sans-cyrl/museosanscyrl-300.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Museo Sans Cyrl';
+	src: url(../fonts/museo-sans-cyrl/museosanscyrl-500.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Museo Sans Cyrl';
+	src: url(../fonts/museo-sans-cyrl/museosanscyrl-700.ttf) format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Museo Sans Cyrl';
+	src: url(../fonts/museo-sans-cyrl/museosanscyrl-900.ttf) format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+/*gilroy 3font*/
+
+

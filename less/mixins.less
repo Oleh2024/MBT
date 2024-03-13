@@ -1,0 +1,35 @@
+// Variables
+@font-main-color: #1A1A1A;
+@font-second-color: #fff;
+@decor-color: rgb(0, 168, 81);
+
+.family-roboto{
+    font-family: 'Roboto';
+}
+.family-museo{
+font-family: 'Museo Sans Cyrl';
+}
+.scin{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   
+}
+.transition(@style:all; @time:0.3s; @anim: ease-in-out){
+    -moz-transition: @style @time @anim;
+    -webkit-transition: @style @time @anim;
+    transition: @style @time @anim;
+}
+.dark-fon(){
+    .scin();
+   background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.4) 45.74%, rgba(0, 0, 0, 0) 100%);}
+
+
+.display-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

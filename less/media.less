@@ -1,0 +1,236 @@
+@import 'mixins.less';
+
+@media only screen and (max-width:1440px){
+    .container{
+        width: 1170px;
+    }
+    
+}
+
+@media only screen and (max-width:1200px){
+    .container{
+        width: 960px;
+    }
+    .decor-text {
+        font-size: 130px;
+line-height: 130px;
+padding-left: 50px;
+    }
+ 
+    .content-box {
+        padding: 0;
+        width: 450px;
+        padding-left: 10px;
+    }
+    .contact-box .contact-image {
+        margin-right: 9px;}
+        .col-1x-media{
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+}
+
+@media only screen and (max-width:992px){
+    .infrastructure,.hidh-standart,.container{
+        width: 750px;
+    }
+    .infrastructure,.hidh-standart{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-header{
+        line-height: 62px;
+    }
+    .col-1x-media-md{
+        width: 100%;
+        text-align: center;
+    }
+    .col-0-media-md{
+        display: none;
+    }
+ .content-box{
+    width: 100%;
+    padding: 0;
+   
+ }
+ .second-section-title{text-align: center;
+white-space: pre-line;}
+ .card .text-card{margin-bottom: 20px;}
+ .image-card{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .form .column-main-info {
+    flex: 1 1 100%;
+    margin-right: 0px;
+  }
+  .form .column-message{
+    flex: 1 1 100%;
+  }
+  .form{
+    display: block;
+  }
+   .col-2x-media-md{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .contact-box{
+    display: block;
+   
+    margin-bottom: 60px;
+   }
+   .contact-box .contact-image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+   }
+   .contact-box .social-image{
+    margin-top: 10px;
+   }
+   .section-title{
+    padding-left: 10px;
+   }
+  
+  
+}
+
+/* Small Devices, Tablets */ 
+@media only screen and (max-width : 768px) { 
+    .infrastructure,.hidh-standart,.container{
+        width: 550px;}
+        .btn-header {
+            width: 280px;
+            height: 48px;}
+            .section-title, .section-title-white{
+                line-height: 48px;
+                span:before{
+                    display: none;
+                }
+            }
+            .col-1x-media-sm{
+                width: 100%;
+            }
+            .contact-address a{
+                display: block;
+            }
+            .main-menu li a,.project-title{
+                font-size: 20px;
+line-height: 40px;
+            }
+            .main-menu li{margin-bottom: 0;}
+	
+} 
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 576px) { 
+    .infrastructure,.hidh-standart,.container{
+        width: 100%;}
+        .main-header{
+            font-size: 28px;
+line-height: 38px;
+        }
+        .subtitle-main-header{
+            font-size: 18px;
+line-height: 40px;
+        }
+        .btn-header{
+            width: 220px;
+            height: 40px;
+            font-size: 14px;
+line-height: 16px;
+        }
+        .section-title, .section-title-white { font-size: 28px;
+            line-height: 38px;
+            white-space:inherit;
+            
+        }
+        .col-1x-media-sm{
+            text-align: center;
+        }
+        .second-section-title{
+            font-size: 22px;
+line-height: 32px;
+        }
+        .map-div{
+            height: 320px;
+        }
+        .image-card{
+            width: 200px;
+        }
+
+        .row-top{display: block;}
+} 
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) { 
+    .logo{
+        width: 73px;
+        height: 31px;
+    }
+    .phone-number{
+        font-size: 14px;
+line-height: 17px;
+    }
+    .close-menu,.open-menu{
+        width: 30px;
+        height: 30px;
+    }
+    .header-top{
+        margin-bottom: 90px;
+    }
+    .main-header{
+      margin-bottom: 0;
+    }
+    .subtitle-main-header{
+       margin-bottom: 30px;
+    }
+    .btn-header{
+       margin-bottom: 90px;}
+       .project-item,.turkey,.infrastructure,.hidh-standart{
+        padding-bottom: 60px;
+        padding-top: 60px;
+       }
+       .second-section-title{
+        margin-bottom: 40px;
+       }
+       .section-title, .section-title-white {margin-bottom: 30px;}
+       .response,.contacts,.form{padding-bottom: 40px;}
+    }
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) { 
+    .infrastructure,.hidh-standart,.container{
+        min-width: 240px;}
+        .form .btn-wrap{display: block;
+        margin-bottom: 10px;}
+.flex-beetwen{
+    display: block;
+    a{display: block;
+    text-align: center;}
+}
+.header-top{display: block;
+*{margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;}}
+.header{
+    padding-top: 10px;
+}
+.contact-box{
+    margin: 0;
+}
+.project-wrap-top .project-item-top{
+    display: block;
+}
+.contacts-top .contact-text, .contacts-top a{font-size: 12px;}
+.contact-address{ font-size: 12px;}
+} 
+
+
+
